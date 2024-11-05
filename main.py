@@ -1,6 +1,6 @@
 from time import sleep
 import streamlit as st
-
+import time
 st.markdown('''<style>
     #root > div:nth-child(1) > div.withScreencast > div > div > div > section.stSidebar {
         display: none !important;
