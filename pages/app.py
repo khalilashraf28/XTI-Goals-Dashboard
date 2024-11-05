@@ -13,10 +13,10 @@ st.markdown('''<style>
     </style>''',unsafe_allow_html=True)
 
 # # Check if the user is authenticated
-# if not st.session_state.get("authentication_status", False):
-#     st.warning("Please login first. Redirecting in 2 seconds...")
-#     time.sleep(0.5)
-#     st.switch_page("./main.py")  # Redirect to the login page
+if not st.session_state.get("authentication_status", False):
+    st.warning("Please login first. Redirecting in 2 seconds...")
+    time.sleep(0.5)
+    st.switch_page("./main.py")  # Redirect to the login page
 
 # def get_base64(bin_file):
 #     with open(bin_file, 'rb') as f:
