@@ -5,7 +5,7 @@ import streamlit as st
 import base64
 from io import BytesIO
 from datetime import datetime
-
+import time
 st.markdown('''<style>
     #root > div:nth-child(1) > div.withScreencast > div > div > div > section.stSidebar.st-emotion-cache-1gv3huu.eczjsme18 > div.st-emotion-cache-6qob1r.eczjsme11 > div.st-emotion-cache-79elbk.eczjsme17 {
         display: none !important;
