@@ -33,8 +33,7 @@ To get started with the **XTI-Goals-Dashboard**, follow the instructions below t
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/XTI-Goals-Dashboard.git
-cd XTI-Goals-Dashboard
+git clone https://github.com/SARAH-HADDAD/Face-Recognition.git
 ```
 
 ### Step 2: Install Dependencies
